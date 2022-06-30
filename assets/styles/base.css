@@ -1,0 +1,16 @@
+:root {
+  --color-background: #1b1b1b;
+  --color-background-secondary: #2c2c2c;
+  --color-white: #fefefe;
+  --color-blue-light: #c0c9ff;
+  --color-gray: #969696;
+  --color-gray-light: #afafaf;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
