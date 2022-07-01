@@ -28,13 +28,14 @@ header {
   text-decoration: none;
   display: block;
   padding: 1.5rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+  border-radius: 3rem;
   transition: border-color 0.5s;
 }
 
 .navbar__link:hover {
-  border-left: 1px solid var(--color-gray);
-  border-right: 1px solid var(--color-gray);
+  border-left: 2px solid var(--color-blue-light);
+  border-right: 2px solid var(--color-blue-light);
 }
 
 @keyframes title-cursor {
