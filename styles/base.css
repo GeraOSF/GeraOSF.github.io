@@ -7,7 +7,10 @@
   --color-gray-light: #afafaf;
   --font-montserrat: 'Montserrat', sans-serif;
   --font-roboto: 'Roboto Mono', monospace;
+  --font-kanit: 'Kanit', sans-serif;
 }
+
+html {scroll-behavior: smooth}
 
 body {
   background-color: var(--color-background);
