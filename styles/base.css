@@ -17,3 +17,7 @@ body {
   color: var(--color-white);
   font-family: var(--font-montserrat);
 }
+
+.subtitle {
+  text-align: center;
+}
