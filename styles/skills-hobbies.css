@@ -23,5 +23,9 @@
 }
 
 .banner:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
+}
+
+.skillsAndHobbies {
+  margin-bottom: 7rem;
 }
