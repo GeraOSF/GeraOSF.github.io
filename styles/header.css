@@ -6,6 +6,7 @@ header {
   border-bottom: 1px solid var(--color-gray);
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .myName__container {
@@ -44,7 +45,6 @@ header {
 .navbar__link:hover {
   border-left: 2px solid var(--color-blue-light);
   border-right: 2px solid var(--color-blue-light);
-  transform: scale(1.05);
 }
 
 @keyframes title-cursor {

@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="styles/about-me.css">
     <link rel="stylesheet" href="styles/skills-hobbies.css">
     <link rel="stylesheet" href="styles/education.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
   </head>
   <body>
 
@@ -52,7 +54,7 @@
 
       <section id="aboutMe" class="aboutMe">
         <h1 class="aboutMe__subtitle">About me</h1>
-        <p class="aboutMe__text">I'm Gerardo Gómez, I'm an Electrical Engineer, and I learned to program during my career and developed a passion for it, I've taken several courses such as the ones from FreeCodeCamp or Harvard University's CS50 course to expand that knowledge and be ready to work in the area. I am currently taking a course from Oracle called Oracle Next Education in collaboration with Alura where I'm learning full stack web development. During my studies, I have made some projects to hone my skills developed during this course. All of them are listed further below, check them out!</p>
+        <p class="aboutMe__text">I'm Gerardo Gómez, I'm an Electrical Engineer, and I learned to program during my career and developed a passion for it, I've taken several courses such as the ones from FreeCodeCamp or Harvard University's CS50 course to expand that knowledge and be ready to work in the area. I am currently taking a course from Oracle called Oracle Next Education in collaboration with Alura where I'm learning full stack web development. During my studies, I have made some projects to hone my skills developed during this course. All of them are listed in the projects section below, check them out!</p>
       </section>
 
       <section id="skills" class="skillsAndHobbies" name="skills">
@@ -135,37 +137,61 @@
 
       <section id="projects" class="projects">
         <h1 class="subtitle">Projects</h1>
-        <ul class="projects__list">
-          <li class="projects__list__item">
-            <img src="" alt="Encrypt & decrypt text" class="projects__list__item--image">
-            <h2 class="projects__list__item__title">Encrypt & decrypt text</h2>
-            <p class="projects__list__item__from">Oracle Challenge</p>
-            <button class="projects__list__item__repoButton">Repository</button><button class="projects__list__item__demoButton">View demo</button></li>
-          <li class="projects__list__item">
-            <img src="" alt="Hangman game" class="projects__list__item--image">
-            <h2 class="projects__list__item__title">Hangman game</h2>
-            <p class="projects__list__item__from">Oracle Challlenge</p>
-            <button class="projects__list__item__repoButton">Repository</button><button class="projects__list__item__demoButton">View demo</button></li>
-        </ul>
+          <ul class="projects__list">
+            <li class="projects__list__item">
+              <img src="assets/placeholder.png" alt="Encrypt & decrypt text" class="projects__list__item--image">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Encrypt & decrypt text</h2>
+                <p class="projects__list__item__from">Oracle Challenge</p>
+                <div class="project__button__container">
+                  <button class="project__button projects__list__item__repoButton">Repository</button>
+                  <button class="project__button projects__list__item__demoButton">View demo</button>
+                </div>
+              </div>
+            </li>
+            <li class="projects__list__item">
+              <img src="assets/placeholder.png" alt="Hangman game" class="projects__list__item--image">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Hangman game</h2>
+                <p class="projects__list__item__from">Oracle Challlenge</p>
+                <div class="project__button__container">
+                  <button class="project__button projects__list__item__repoButton">Repository</button>
+                  <button class="project__button projects__list__item__demoButton">View demo</button>
+                </div>
+              </div>
+            </li>
+          </ul>
       </section>
 
       <section id="contactMe" class="contactMe">
         <h1 class="subtitle">Contact me</h1>
-        <img src="" alt="Contact me image" class="contactMe__image">
-        <p class="contactMe__description">Want to contact me?, please fill out this form and I'll make sure to respond immediately!</p>
-        <form class="contactMe__form">
-          <input type="text" class="contactMe__name" placeholder="Name">
-          <input type="email" class="contactMe__email" placeholder="E-mail">
-          <input type="text" class="contactMe__subject" placeholder="Subject">
-          <textarea name="" id="" cols="30" rows="10" class="contactMe__message" placeholder="Message"></textarea>
-          <button class="contactMe__sendButton">Send</button>
+        <div class="contactMe__container">
+          <img src="assets/placeholder.png" alt="Contact me image" class="contactMe__image">
+          <div class="contactMe__form__container">
+            <p class="contactMe__description">Want to contact me? Please fill out this form and I will make sure to respond immediately.</p>
+            <form class="contactMe__form">
+              <div class="contactMe__input__container">
+                <label for="name" class="form__input__label name__label">Name</label><br>
+                <input type="text" class="form__input contactMe__name" name="name" required>
+              </div>
+              <div class="contactMe__input__container">
+                <label for="email" class="form__input__label name__label">E-mail</label><br>
+                <input type="email" class="form__input contactMe__email" name="email" required>
+              </div>
+              <div class="contactMe__input__container">
+                <label for="subject" class="form__input__label name__label">Subject</label><br>
+                <input type="text" class="form__input contactMe__subject" name="subject" required>
+              </div>
+              <div class="contactMe__input__container">
+                <label for="subject" class="form__input__label name__label" name="message">Message</label><br>
+                <textarea name="" id="" cols="30" rows="10" class="form__input contactMe__message" name="message" required></textarea>
+              </div>
+              <button class="contactMe__sendButton">Send</button>
+            </form>
+          </div>
+        </div>
         </form>
       </section>
     </main>
-
-    <footer>
-      
-    </footer>
-    
   </body>
 </html>

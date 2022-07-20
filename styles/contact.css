@@ -1,0 +1,54 @@
+.contactMe {
+  margin-bottom: 5rem;
+}
+
+.contactMe__image {
+  width: 40rem;
+  height: 30rem;
+}
+
+.contactMe__container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.contactMe__description {
+  font-size: 1.3rem;
+  font-weight: 200;
+  font-style: oblique;
+  margin: 0;
+}
+
+.contactMe__form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactMe__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__input__label {
+  font-size: 1.2rem;
+}
+
+.form__input {
+  width: 30vw;
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.contactMe__message {
+  height: initial;
+}
+
+.contactMe__sendButton {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.3rem;
+}
