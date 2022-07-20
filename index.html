@@ -44,9 +44,9 @@
           <h1 class="presentation__who">Hello, my name is Gerardo and I build websites</h1>
           <p class="presentation__who--details">Here are some useful links to know me a little bit more:</p>
           <ul class="presentation__list">
-            <il><a href="#" class="presentation__list--links"><i class="fa-brands fa-github fa-2xl"></i>&nbsp GitHub &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
-            <il><a href="#" class="presentation__list--links"><i class="fa-brands fa-linkedin fa-2xl"></i>&nbsp LinkedIn &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
-            <il><a href="#" class="presentation__list--links"><i class="fa-solid fa-file-lines fa-2xl"></i>&nbsp Resume &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="https://github.com/GeraOSF/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-github fa-2xl"></i>&nbsp GitHub &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="https://www.linkedin.com/in/gerardo-gomez-romero-83619a200/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-linkedin fa-2xl"></i>&nbsp LinkedIn &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="assets/CV.pdf" target="_blank" class="presentation__list--links"><i class="fa-solid fa-file-lines fa-2xl"></i>&nbsp Resume &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
           </ul>
         </div>
         <img class="presentation__photo" src="/assets/placeholder.png">
@@ -172,7 +172,7 @@
             <form class="contactMe__form">
               <div class="contactMe__input__container">
                 <label for="name" class="form__input__label name__label">Name</label><br>
-                <input type="text" class="form__input contactMe__name" name="name" required>
+                <input type="text" class="form__input contactMe__name" name="name" required pattern="[A-Za-z]{1,50}" maxlength="50">
               </div>
               <div class="contactMe__input__container">
                 <label for="email" class="form__input__label name__label">E-mail</label><br>
