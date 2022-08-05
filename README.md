@@ -1,3 +1,3 @@
  Welcome to my portfolio
  
- https://geraosf.github.io/
+ Click on this link to check it out: https://geraosf.github.io/

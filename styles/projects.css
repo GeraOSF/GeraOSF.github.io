@@ -39,3 +39,26 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.project__button:hover {
+  transform: translateY(-3px);
+}
+
+.projects__list__item__repoButton {
+  color: var(--color-secondary);
+  border: solid 2px var(--color-secondary);
+  transition: all 0.2s;
+}
+
+.projects__list__item__repoButton:hover {
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  border: solid 2px transparent;
+}
+
+.projects__list__item__demoButton {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border: solid 2px transparent;
+  transition: all 0.2s;
+}

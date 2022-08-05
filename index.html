@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gerardo Gómez | Portfolio</title>
     <script src="https://kit.fontawesome.com/59cf79b5cf.js" crossorigin="anonymous"></script>
+    <script src="scroll-to-top.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Mono:wght@200;400;700&display=swap" rel="stylesheet">
@@ -44,17 +45,18 @@
           <h1 class="presentation__who">Hello, my name is Gerardo and I build websites</h1>
           <p class="presentation__who--details">Here are some useful links to know me a little bit more:</p>
           <ul class="presentation__list">
-            <il><a href="https://github.com/GeraOSF/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-github fa-2xl"></i>&nbsp GitHub &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
-            <il><a href="https://www.linkedin.com/in/gerardo-gomez-romero-83619a200/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-linkedin fa-2xl"></i>&nbsp LinkedIn &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
-            <il><a href="assets/CV.pdf" target="_blank" class="presentation__list--links"><i class="fa-solid fa-file-lines fa-2xl"></i>&nbsp Resume &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="https://github.com/GeraOSF/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-github fa-2x"></i>&nbsp GitHub &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="https://www.linkedin.com/in/gerardo-gomez-romero-83619a200/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-linkedin fa-2x"></i>&nbsp LinkedIn &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="assets/CV.pdf" target="_blank" class="presentation__list--links"><i class="fa-solid fa-file-lines fa-2x"></i>&nbsp Resume &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
           </ul>
+          <a class="email-link" href="mailto:gerardogomezromero175@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>&nbsp gerardogomezromero175@gmail.com &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a>
         </div>
-        <img class="presentation__photo" src="/assets/placeholder.png">
+        <img class="presentation__photo" src="/assets/pfp.png">
       </section>
 
       <section id="aboutMe" class="aboutMe">
-        <h1 class="aboutMe__subtitle">About me</h1>
-        <p class="aboutMe__text">I'm Gerardo Gómez, I'm an Electrical Engineer, and I learned to program during my career and developed a passion for it, I've taken several courses such as the ones from FreeCodeCamp or Harvard University's CS50 course to expand that knowledge and be ready to work in the area. I am currently taking a course from Oracle called Oracle Next Education in collaboration with Alura where I'm learning full stack web development. During my studies, I have made some projects to hone my skills developed during this course. All of them are listed in the projects section below, check them out!</p>
+        <h1 class="aboutMe__subtitle subtitle">About me</h1>
+        <p class="aboutMe__text">I'm Gerardo Gómez, I'm a web developer and an electrical engineer. I learned to program during my career and developed a passion for it, I've taken several courses such as the ones from FreeCodeCamp or Harvard University's CS50 course to expand that knowledge and be ready to work in the area. I am currently taking a course from Oracle called Oracle Next Education in collaboration with Alura where I'm learning full stack web development. During my studies, I have made some projects to hone my skills developed during this course. All of them are listed in the projects section below, check them out!</p>
       </section>
 
       <section id="skills" class="skillsAndHobbies" name="skills">
@@ -139,17 +141,6 @@
         <h1 class="subtitle">Projects</h1>
           <ul class="projects__list">
             <li class="projects__list__item">
-              <img src="assets/text-encryption.png" alt="Encrypt & decrypt text" class="projects__list__item--image">
-              <div class="projects__list__item__container">
-                <h2 class="projects__list__item__title">Encrypt & decrypt text</h2>
-                <p class="projects__list__item__from">Oracle Challenge</p>
-                <div class="project__button__container">
-                  <a href="https://github.com/GeraOSF/encriptacion-texto" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
-                  <a href="https://geraosf.github.io/encriptacion-texto/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
-                </div>
-              </div>
-            </li>
-            <li class="projects__list__item">
               <img src="assets/hangman.png" alt="Hangman game" class="projects__list__item--image">
               <div class="projects__list__item__container">
                 <h2 class="projects__list__item__title">Hangman game</h2>
@@ -157,6 +148,17 @@
                 <div class="project__button__container">
                   <a href="https://github.com/GeraOSF/juego-del-ahorcado" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
                   <a href="https://geraosf.github.io/juego-del-ahorcado/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="projects__list__item">
+              <img src="assets/text-encryption.png" alt="Encrypt & decrypt text" class="projects__list__item--image">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Encrypt & decrypt text</h2>
+                <p class="projects__list__item__from">Oracle Challenge</p>
+                <div class="project__button__container">
+                  <a href="https://github.com/GeraOSF/encriptacion-texto" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
+                  <a href="https://geraosf.github.io/encriptacion-texto/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
                 </div>
               </div>
             </li>
@@ -168,7 +170,7 @@
         <div class="contactMe__container">
           <img src="assets/contact-me.jfif" alt="Contact me image" class="contactMe__image">
           <div class="contactMe__form__container">
-            <p class="contactMe__description">Want to contact me? Please fill out this form and I will make sure to respond immediately.</p>
+            <p class="contactMe__description">Want to contact me? Please fill out this form or click on my email @ <a class="contactMe__email-link" href="mailto:gerardogomezromero175@gmail.com">gerardogomezromero175@gmail.com</a></p>
             <form class="contactMe__form">
               <div class="contactMe__input__container">
                 <label for="name" class="form__input__label name__label">Name</label><br>
@@ -180,7 +182,7 @@
               </div>
               <div class="contactMe__input__container">
                 <label for="subject" class="form__input__label name__label">Subject</label><br>
-                <input type="text" class="form__input contactMe__subject" name="subject" required>
+                <input type="text" class="form__input contactMe__subject" name="subject" required autocomplete="off">
               </div>
               <div class="contactMe__input__container">
                 <label for="subject" class="form__input__label name__label" name="message">Message</label><br>
@@ -193,5 +195,6 @@
         </form>
       </section>
     </main>
+    <i class="fa-solid fa-angles-up fa-2x arrow-to-top"></i>
   </body>
 </html>

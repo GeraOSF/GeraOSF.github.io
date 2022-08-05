@@ -1,10 +1,10 @@
 :root {
-  --color-background: #1b1b1b;
-  --color-background-secondary: #272727;
-  --color-white: #fefefe;
-  --color-blue-light: #bac4ff;
-  --color-gray: #969696;
-  --color-gray-light: #afafaf;
+  --color-background: #1C1C1C;
+  --color-main: #0184A3;
+  --color-secondary: #0290B0;
+  --color-white: #FAFAFA;
+  --color-gray: #D4D4D4;
+  --color-gray-light: #EDEDED;
   --font-montserrat: 'Montserrat', sans-serif;
   --font-roboto: 'Roboto Mono', monospace;
   --font-kanit: 'Kanit', sans-serif;
@@ -18,6 +18,29 @@ body {
   font-family: var(--font-montserrat);
 }
 
+#aboutMe, #skills, #hobbies, #education, #projects, #contactMe {
+  padding-top: 7rem;
+  margin-top: -7rem;
+}
+
 .subtitle {
   text-align: center;
+  color: var(--color-main);
+}
+
+.arrow-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  background-color: var(--color-gray);
+  color: var(--color-main);
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: none;
+}
+
+.arrow-to-top:hover {
+  transform: translateY(-3px);
 }

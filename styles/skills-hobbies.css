@@ -23,7 +23,7 @@
 }
 
 .banner:hover {
-  transform: scale(1.07);
+  transform: translateY(-7px);
 }
 
 .skillsAndHobbies {

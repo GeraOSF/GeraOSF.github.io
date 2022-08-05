@@ -20,6 +20,12 @@
   margin: 0;
 }
 
+.contactMe__email-link {
+  color: var(--color-main);
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .contactMe__form__container {
   display: flex;
   flex-direction: column;
@@ -55,4 +61,16 @@
   width: 10rem;
   height: 3rem;
   font-size: 1.3rem;
+  font-style: oblique;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border: solid 2px transparent;
+  transition: all 0.2s;
+}
+
+.contactMe__sendButton:hover {
+  background-color: #037b96;
+  transform: translateY(-2px);
 }

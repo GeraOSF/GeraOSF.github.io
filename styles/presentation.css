@@ -13,6 +13,16 @@
   word-wrap: break-word;
   width: 25vw;
   margin: 0;
+  color: var(--color-main);
+}
+
+.fa-github, .fa-linkedin, .fa-file-lines, .fa-arrow-up-right-from-square, .fa-envelope {
+  color: var(--color-main);
+}
+
+.email-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .presentation__who--details {
