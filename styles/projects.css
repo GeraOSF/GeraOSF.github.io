@@ -23,10 +23,10 @@
   flex-direction: row-reverse;
 }
 
-.projects__list__item--image {
+/* .projects__list__item--image {
   width: 50rem;
   height: 25rem;
-}
+} */
 
 .project__button__container {
   display: flex;
