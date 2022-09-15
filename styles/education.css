@@ -4,6 +4,7 @@
 
 .education__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
   gap: 2rem;
@@ -11,8 +12,8 @@
 }
 
 .education__element {
-  width: 25rem;
-  height: 25rem;
+  min-width: 300px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;

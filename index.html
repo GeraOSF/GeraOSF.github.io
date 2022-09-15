@@ -7,6 +7,7 @@
     <title>Gerardo Gómez | Portfolio</title>
     <script src="https://kit.fontawesome.com/59cf79b5cf.js" crossorigin="anonymous"></script>
     <script src="scroll-to-top.js" defer></script>
+    <script src="scroll-animations.js" defer></script>
     <link rel="icon" href="assets/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,6 @@
     <link rel="stylesheet" href="styles/skills-hobbies.css">
     <link rel="stylesheet" href="styles/education.css">
     <link rel="stylesheet" href="styles/projects.css">
-    <!-- <link rel="stylesheet" href="styles/contact.css"> -->
   </head>
   <body>
 
@@ -35,13 +35,13 @@
           <il class="navbar__item"><a class="navbar__link" href="#hobbies">Hobbies</a></il>
           <il class="navbar__item"><a class="navbar__link" href="#education">Education</a></il>
           <il class="navbar__item"><a class="navbar__link" href="#projects">Projects</a></il>
-          <!-- <il class="navbar__item"><a class="navbar__link" href="#contactMe">Contact me</a></il> -->
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="presentation">
+      <section class="presentation hidden">
+        <img class="presentation__photo" src="/assets/pfp.png">
         <div class="presentation__container">
           <h1 class="presentation__who">Hello, my name is Gerardo and I build websites</h1>
           <p class="presentation__who--details">Here are some useful links to know me a little bit more:</p>
@@ -52,93 +52,92 @@
           </ul>
           <a class="email-link" href="mailto:gerardogomezromero175@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>&nbsp gerardogomezromero175@gmail.com &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a>
         </div>
-        <img class="presentation__photo" src="/assets/pfp.png">
       </section>
 
-      <section id="aboutMe" class="aboutMe">
+      <section id="aboutMe" class="aboutMe hidden">
         <h1 class="aboutMe__subtitle subtitle">About me</h1>
         <p class="aboutMe__text">I'm Gerardo Gómez, I'm a web developer and an electrical engineer. I learned to program during my career and developed a passion for it, I've taken several courses such as the ones from FreeCodeCamp or Harvard University's CS50 course to expand that knowledge and be ready to work in the area. I attended a bootcamp from Oracle called Oracle Next Education in collaboration with Alura where I learned full stack web development. I have made some projects to hone my skills developed during my learning process. All of them are listed in the projects section below, check them out!</p>
       </section>
 
-      <section id="skills" class="skillsAndHobbies" name="skills">
+      <section id="skills" class="skillsAndHobbies hidden" name="skills">
         <h1 class="subtitle">Skills</h1>
         <ul class="banners">
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-brands fa-react fa-2x"></i>
             <div class="banner__title">React</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-brands fa-js-square fa-2x"></i>
             <div class="banner__title">JavaScript</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-brands fa-css3-alt fa-2x"></i>
             <div class="banner__title">CSS</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-brands fa-html5 fa-2x"></i>
             <div class="banner__title">HTML</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-brands fa-python fa-2x"></i>
             <div class="banner__title">Python</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-c fa-2x"></i>
             <div class="banner__title">C</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-database fa-2x"></i>
             <div class="banner__title">SQL</div>
           </li>
         </ul>
       </section>
 
-      <section id="hobbies" class="skillsAndHobbies" name="hobbies">
+      <section id="hobbies" class="skillsAndHobbies hidden" name="hobbies">
         <h1 class="subtitle">Hobbies</h1>
         <ul class="banners">
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-guitar fa-2x"></i>
             <div class="banner__title">Play the guitar</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-chess fa-2x"></i>
             <div class="banner__title">Play chess</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-tv fa-2x"></i>
             <div class="banner__title">Watch TV series</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-people-group fa-2x"></i>
             <div class="banner__title">Hang out with friends</div>
           </li>
-          <li class="banner">
+          <li class="banner hidden">
             <i class="fa-solid fa-person-biking fa-2x"></i>
             <div class="banner__title">Spinning</div>
           </li>
         </ul>
       </section>
 
-      <section id="education" class="education">
+      <section id="education" class="education hidden">
         <h1 class="subtitle">Education</h1>
         <ul class="education__list">
-          <li class="education__element banner">
+          <li class="education__element banner hidden">
             <img class="education__element--image" src="assets/logo-one.png">
             <div class="education__element--title">Oracle Next Education - Full stack development</div>
             <div class="education__element--time">In progress | Alura Latam + Oracle</div>
           </li>
-          <li class="education__element banner">
+          <li class="education__element banner hidden">
             <img class="education__element--image" src="assets/logo-freecodecamp.png">
             <div class="education__element--title">JavaScript Algorithms and Data Structures</div>
             <div class="education__element--time">2022 | FreeCodeCamp</div>
           </li>
-          <li class="education__element banner">
+          <li class="education__element banner hidden">
             <img class="education__element--image" src="assets/logo-hardvard.jfif">
             <div class="education__element--title">CS50: Introduction to Computer Science</div>
             <div class="education__element--time">2021-22 | Hadvard University</div>
           </li>
-          <li class="education__element banner">
+          <li class="education__element banner hidden">
             <img class="education__element--image" src="assets/logo-itt.png">
             <div class="education__element--title">Electrical Engineering</div>
             <div class="education__element--time">2015-22 | Instituto Tecnológico de Tijuana</div>
@@ -146,11 +145,10 @@
         </ul>
       </section>
 
-      <section id="projects" class="projects">
+      <section id="projects" class="projects hidden">
         <h1 class="subtitle">Projects</h1>
           <ul class="projects__list">
-            <li class="projects__list__item">
-              <img src="assets/quizzical.png" alt="Quizzical" class="projects__list__item--image" width="700" height="400">
+            <li class="projects__list__item hidden">
               <div class="projects__list__item__container">
                 <h2 class="projects__list__item__title">Quizzical</h2>
                 <p class="projects__list__item__from">Quiz game made with React</p>
@@ -159,9 +157,9 @@
                   <a href="https://quizzical-geraosf.vercel.app" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
                 </div>
               </div>
+              <img src="assets/quizzical.png" alt="Quizzical" class="projects__list__item--image">
             </li>
-            <li class="projects__list__item">
-              <img src="assets/alura-geek.png" alt="Alura-geek e-commerce" class="projects__list__item--image" width="700" height="400">
+            <li class="projects__list__item hidden">
               <div class="projects__list__item__container">
                 <h2 class="projects__list__item__title">Alura-geek e-commerce</h2>
                 <p class="projects__list__item__from">E-commerce website (Oracle Challlenge)</p>
@@ -170,9 +168,9 @@
                   <a href="https://geraosf.github.io/alurageek-ecommerce/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
                 </div>
               </div>
+              <img src="assets/alura-geek.png" alt="Alura-geek e-commerce" class="projects__list__item--image">
             </li>
-            <li class="projects__list__item">
-              <img src="assets/hangman.png" alt="Hangman game" class="projects__list__item--image" width="700" height="400">
+            <li class="projects__list__item hidden">
               <div class="projects__list__item__container">
                 <h2 class="projects__list__item__title">Hangman game</h2>
                 <p class="projects__list__item__from">Oracle Challlenge</p>
@@ -181,9 +179,9 @@
                   <a href="https://geraosf.github.io/juego-del-ahorcado/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
                 </div>
               </div>
+              <img src="assets/hangman.png" alt="Hangman game" class="projects__list__item--image">
             </li>
-            <li class="projects__list__item">
-              <img src="assets/text-encryption.png" alt="Encrypt & decrypt text" class="projects__list__item--image" width="700" height="400">
+            <li class="projects__list__item hidden">
               <div class="projects__list__item__container">
                 <h2 class="projects__list__item__title">Encrypt & decrypt text</h2>
                 <p class="projects__list__item__from">Oracle Challenge</p>
@@ -192,39 +190,10 @@
                   <a href="https://geraosf.github.io/encriptacion-texto/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
                 </div>
               </div>
+              <img src="assets/text-encryption.png" alt="Encrypt & decrypt text" class="projects__list__item--image">
             </li>
           </ul>
       </section>
-
-      <!-- <section id="contactMe" class="contactMe">
-        <h1 class="subtitle">Contact me</h1>
-        <div class="contactMe__container">
-          <img src="assets/contact-me.jfif" alt="Contact me image" class="contactMe__image">
-          <div class="contactMe__form__container">
-            <p class="contactMe__description">Want to contact me? Please fill out this form or click on my email @ <a class="contactMe__email-link" href="mailto:gerardogomezromero175@gmail.com">gerardogomezromero175@gmail.com</a></p>
-            <form class="contactMe__form">
-              <div class="contactMe__input__container">
-                <label for="name" class="form__input__label name__label">Name</label><br>
-                <input type="text" class="form__input contactMe__name" name="name" required pattern="[A-Za-z]{1,50}" maxlength="50">
-              </div>
-              <div class="contactMe__input__container">
-                <label for="email" class="form__input__label name__label">E-mail</label><br>
-                <input type="email" class="form__input contactMe__email" name="email" required>
-              </div>
-              <div class="contactMe__input__container">
-                <label for="subject" class="form__input__label name__label">Subject</label><br>
-                <input type="text" class="form__input contactMe__subject" name="subject" required autocomplete="off">
-              </div>
-              <div class="contactMe__input__container">
-                <label for="subject" class="form__input__label name__label" name="message">Message</label><br>
-                <textarea name="" id="" cols="30" rows="10" class="form__input contactMe__message" name="message" required></textarea>
-              </div>
-              <button class="contactMe__sendButton">Send</button>
-            </form>
-          </div>
-        </div>
-        </form>
-      </section> -->
     </main>
     <i class="fa-solid fa-angles-up fa-2x arrow-to-top"></i>
   </body>
