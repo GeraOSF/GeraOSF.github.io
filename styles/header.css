@@ -74,6 +74,10 @@ header {
 }
 
 @media only screen and (max-width: 720px) {
+  header {
+    position: initial;
+  }
+
   .myName {
     white-space: normal;
     animation: none;
