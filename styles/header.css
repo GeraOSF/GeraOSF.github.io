@@ -26,6 +26,7 @@ header {
   white-space: nowrap;
   overflow: hidden;
   font-size: 2rem;
+  text-align: center;
 }
 
 .navbar__list {
