@@ -45,7 +45,6 @@ body {
   transform: translateY(-3px);
 }
 
-/* Scroll animation styles */
 .hidden {
   opacity: 0;
   transform: translateX(-100%);
