@@ -30,3 +30,11 @@
 .skillsAndHobbies {
   margin-bottom: 7rem;
 }
+
+.skill-image {
+  width: 40px;
+}
+
+.css-logo, .tailwind-logo {
+  width: 45px;
+}

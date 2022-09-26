@@ -96,7 +96,7 @@ header {
   .navbar__link {
     border-left: 2px solid var(--color-main);
     border-right: 2px solid var(--color-main);
-    width: 100px;
+    width: 150px;
     text-align: center;
   }
 }

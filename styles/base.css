@@ -18,7 +18,7 @@ body {
   font-family: var(--font-montserrat);
 }
 
-#aboutMe, #skills, #hobbies, #education, #projects, #contactMe {
+#skills, #hobbies, #education, #projects, #contactMe {
   padding-top: 7rem;
   margin-top: -7rem;
 }
