@@ -1,0 +1,54 @@
+.experience {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.experience__element {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: left;
+  width: calc(100% - 100px);
+  min-height: 175px;
+  height: auto;
+}
+
+.experience__element--image {
+  width: 150px;
+}
+
+.experience__element__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-kanit);
+}
+
+.experience__element__info p {
+  margin: 0;
+}
+
+.experience__element--title {
+  font-size: 1.5rem;
+}
+
+.experience__element--company {
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience__element {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100% - 20px);
+  }
+}
