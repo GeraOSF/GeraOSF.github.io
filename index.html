@@ -33,10 +33,11 @@
         <ul class="navbar__list">
           <il class="navbar__item"><a class="navbar__link" href="#aboutMe">About me</a></il>
           <il class="navbar__item"><a class="navbar__link" href="#skills">Skills</a></il>
-          <il class="navbar__item"><a class="navbar__link" href="#experience">Experience</a></il>
-          <il class="navbar__item"><a class="navbar__link" href="#education">Education</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#experience">Professional Experience</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#work-websites">Job Projects</a></il>
           <il class="navbar__item"><a class="navbar__link" href="#projects">Projects</a></il>
-          <il class="navbar__item"><a class="navbar__link" href="#hobbies">Hobbies</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#education">Education</a></il>
+          <!-- <il class="navbar__item"><a class="navbar__link" href="#hobbies">Hobbies</a></il> -->
         </ul>
       </nav>
     </header>
@@ -108,7 +109,7 @@
       </section>
 
       <section id="experience" class="experience hidden">
-        <h1 class="subtitle">Work Experience</h1>
+        <h1 class="subtitle">Professional Experience</h1>
         <ul class="experience__list">
           <li class="experience__element banner hidden">
             <img class="experience__element--image" src="assets/logo-thirdrock.svg">
@@ -157,34 +158,35 @@
         </ul>
       </section>
 
-      <section id="education" class="education hidden">
-        <h1 class="subtitle">Education</h1>
-        <ul class="education__list">
-          <li class="education__element banner hidden">
-            <img class="education__element--image" src="assets/logo-one.png">
-            <div class="education__element--title">Oracle Next Education - Full stack development</div>
-            <div class="education__element--time">In progress | Alura Latam + Oracle</div>
+
+      <section id="work-websites" class="projects hidden" style="margin-top: -7rem; padding-top: 7rem;">
+        <h1 class="subtitle">Websites I've Worked On</h1>
+        <ul class="projects__list">
+          <li class="projects__list__item hidden">
+            <div class="projects__list__item__container">
+              <h2 class="projects__list__item__title">Songmode</h2>
+              <p class="projects__list__item__from">Platform to learn any song on piano. I worked on this website as a React frontend developer along with other developers from different areas.</p>
+              <div class="project__button__container">
+                <a href="https://songmode.io/" target="_blank"><button class="project__button projects__list__item__repoButton">View Page</button></a>
+              </div>
+            </div>
+            <img src="assets/songmode.png" alt="Songmode" class="projects__list__item--image">
           </li>
-          <li class="education__element banner hidden">
-            <img class="education__element--image" src="assets/logo-freecodecamp.png">
-            <div class="education__element--title">JavaScript Algorithms and Data Structures</div>
-            <div class="education__element--time">2022 | FreeCodeCamp</div>
-          </li>
-          <li class="education__element banner hidden">
-            <img class="education__element--image" src="assets/logo-hardvard.jfif">
-            <div class="education__element--title">CS50: Introduction to Computer Science</div>
-            <div class="education__element--time">2021-22 | Hadvard University</div>
-          </li>
-          <li class="education__element banner hidden">
-            <img class="education__element--image" src="assets/logo-itt.png">
-            <div class="education__element--title">Electrical Engineering</div>
-            <div class="education__element--time">2015-22 | Instituto Tecnológico de Tijuana</div>
+          <li class="projects__list__item hidden">
+            <div class="projects__list__item__container">
+              <h2 class="projects__list__item__title">Rancho San Satoshi</h2>
+              <p class="projects__list__item__from">Website developed while working at ThirdRock Systems</p>
+              <div class="project__button__container">
+                <a href="https://thirdrock.systems/satoshi/index.php/media/" target="_blank"><button class="project__button projects__list__item__repoButton">View Page</button></a>
+              </div>
+            </div>
+            <img src="assets/san-satoshi.png" alt="Rancho San Satoshi" class="projects__list__item--image">
           </li>
         </ul>
       </section>
 
       <section id="projects" class="projects hidden">
-        <h1 class="subtitle">Projects</h1>
+        <h1 class="subtitle">Personal Projects</h1>
           <ul class="projects__list">
             <li class="projects__list__item hidden">
               <div class="projects__list__item__container">
@@ -244,7 +246,33 @@
           </ul>
       </section>
 
-      <section id="hobbies" class="skillsAndHobbies hidden" name="hobbies">
+      <section id="education" class="education hidden">
+        <h1 class="subtitle">Education</h1>
+        <ul class="education__list">
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-one.png">
+            <div class="education__element--title">Oracle Next Education - Full stack development</div>
+            <div class="education__element--time">2022 | Alura Latam + Oracle</div>
+          </li>
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-freecodecamp.png">
+            <div class="education__element--title">JavaScript Algorithms and Data Structures</div>
+            <div class="education__element--time">2022 | FreeCodeCamp</div>
+          </li>
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-hardvard.jfif">
+            <div class="education__element--title">CS50: Introduction to Computer Science</div>
+            <div class="education__element--time">2021-22 | Hadvard University</div>
+          </li>
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-itt.png">
+            <div class="education__element--title">Electrical Engineering</div>
+            <div class="education__element--time">2015-22 | Instituto Tecnológico de Tijuana</div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- <section id="hobbies" class="skillsAndHobbies hidden" name="hobbies">
         <h1 class="subtitle">Hobbies</h1>
         <ul class="banners">
           <li class="banner hidden">
@@ -268,7 +296,7 @@
             <div class="banner__title">Spinning</div>
           </li>
         </ul>
-      </section>
+      </section> -->
     </main>
     <i class="fa-solid fa-angles-up fa-2x arrow-to-top"></i>
   </body>

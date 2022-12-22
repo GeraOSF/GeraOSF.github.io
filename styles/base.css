@@ -18,6 +18,10 @@ body {
   font-family: var(--font-montserrat);
 }
 
+section {
+  margin-bottom: 100px !important;
+}
+
 #skills, #experience, #hobbies, #education, #projects, #contactMe {
   padding-top: 7rem;
   margin-top: -7rem;
