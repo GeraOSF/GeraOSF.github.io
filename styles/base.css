@@ -1,0 +1,63 @@
+:root {
+  --color-background: #1C1C1C;
+  --color-main: #0184A3;
+  --color-secondary: #0290B0;
+  --color-white: #FAFAFA;
+  --color-gray: #D4D4D4;
+  --color-gray-light: #EDEDED;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto Mono', monospace;
+  --font-kanit: 'Kanit', sans-serif;
+}
+
+html {scroll-behavior: smooth}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+section {
+  margin-bottom: 100px !important;
+}
+
+#skills, #experience, #hobbies, #education, #projects, #contactMe {
+  padding-top: 7rem;
+  margin-top: -7rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--color-main);
+}
+
+.arrow-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  background-color: var(--color-gray);
+  color: var(--color-main);
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: none;
+}
+
+.arrow-to-top:hover {
+  transform: translateY(-3px);
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  filter: blur(20px);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}

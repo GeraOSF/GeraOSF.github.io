@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gerardo Gómez | Portfolio</title>
+    <script src="https://kit.fontawesome.com/59cf79b5cf.js" crossorigin="anonymous"></script>
+    <script src="scroll-to-top.js" defer></script>
+    <script src="scroll-animations.js" defer></script>
+    <link rel="icon" href="assets/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Mono:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/presentation.css">
+    <link rel="stylesheet" href="styles/about-me.css">
+    <link rel="stylesheet" href="styles/skills-hobbies.css">
+    <link rel="stylesheet" href="styles/experience.css">
+    <link rel="stylesheet" href="styles/education.css">
+    <link rel="stylesheet" href="styles/projects.css">
+  </head>
+  <body>
+
+    <header>
+      <a class="myName__container" href="/">
+        <h2 class="myName">Luis Gerardo Gómez Romero | Portfolio</h2>
+      </a>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <il class="navbar__item"><a class="navbar__link" href="#aboutMe">About me</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#skills">Skills</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#experience">Professional Experience</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#work-websites">Job Projects</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#projects">Projects</a></il>
+          <il class="navbar__item"><a class="navbar__link" href="#education">Education</a></il>
+          <!-- <il class="navbar__item"><a class="navbar__link" href="#hobbies">Hobbies</a></il> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="presentation hidden">
+        <img class="presentation__photo" src="/assets/pfp.jpg">
+        <div class="presentation__container">
+          <h1 class="presentation__who">Hello, my name is Gerardo and I build websites</h1>
+          <p class="presentation__who--details">Here are some useful links to know me a little bit more:</p>
+          <ul class="presentation__list">
+            <il><a href="https://github.com/GeraOSF/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-github fa-2x"></i>&nbsp GitHub &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="https://www.linkedin.com/in/gerardo-gomez-romero-83619a200/" target="_blank" class="presentation__list--links"><i class="fa-brands fa-linkedin fa-2x"></i>&nbsp LinkedIn &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+            <il><a href="assets/CV.pdf" target="_blank" class="presentation__list--links"><i class="fa-solid fa-file-lines fa-2x"></i>&nbsp Resume &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a></il>
+          </ul>
+          <a class="email-link" href="mailto:gerardogomezromero175@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>&nbsp gerardogomezromero175@gmail.com &nbsp<i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i></a>
+        </div>
+      </section>
+
+      <section id="aboutMe" class="aboutMe hidden">
+        <h1 class="aboutMe__subtitle subtitle">About me</h1>
+        <p class="aboutMe__text">Hello, my name is Gerardo Gómez and I am a web developer and an electrical engineer. Currently, I am working for ThirdRock Systems, a software agency based in Canada, where I am utilizing my technical background to contribute to various projects as a frontend developer. In addition to this, I am also working on a startup website called Songmode, where I am using React and other tech stack to build and maintain the website. At Songmode, my responsibilities have included working with a variety of technologies and collaborating with a diverse team of developers.</p>
+      </section>
+
+      <section id="skills" class="skillsAndHobbies hidden" name="skills">
+        <h1 class="subtitle">Skills</h1>
+        <ul class="banners">
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/react-logo.svg" alt="React logo">
+            <div class="banner__title">React</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/javascript-logo.svg" alt="JavaScript logo">
+            <div class="banner__title">JavaScript</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/typescript-logo.svg" alt="TypeScript logo">
+            <div class="banner__title">TypeScript</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/jest-logo.svg" alt="Jest logo">
+            <div class="banner__title">Jest</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image tailwind-logo" src="./assets/tailwind-logo.svg" alt="Tailwind logo">
+            <div class="banner__title">Tailwind CSS</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image css-logo" src="./assets/css-logo.svg" alt="CSS logo">
+            <div class="banner__title">CSS</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/html-logo.svg" alt="HTML logo">
+            <div class="banner__title">HTML</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/python-logo.svg" alt="Python logo">
+            <div class="banner__title">Python</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/c-logo.svg" alt="C logo">
+            <div class="banner__title">C</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/sql-logo.svg" alt="SQL logo">
+            <div class="banner__title">SQL</div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience" class="experience hidden">
+        <h1 class="subtitle">Professional Experience</h1>
+        <ul class="experience__list">
+          <li class="experience__element banner hidden">
+            <img class="experience__element--image" src="assets/logo-thirdrock.svg">
+            <div class="experience__element__info">
+              <div>
+                <p class="experience__element--title">Frontend Web Developer</p>
+                <p class="experience__element--company">ThirdRock Systems</p>
+                <p class="experience__element--time">Oct 2022 - Present</p>
+              </div>
+              <p class="experience__element--description">Develop and bring software and website solutions, working with a team of developers as a frontend web developer.</p>
+            </div>
+          </li>
+          <li class="experience__element banner hidden">
+            <img class="experience__element--image" src="assets/logo-upwork.png">
+            <div class="experience__element__info">
+              <div>
+                <p class="experience__element--title">Freelance Web Developer</p>
+                <p class="experience__element--company">Upwork</p>
+                <p class="experience__element--time">Sep 2022 - Present</p>
+              </div>
+              <p class="experience__element--description">Experience doing freelance projects for clients all over the world.</p>
+            </div>
+          </li>
+          <li class="experience__element banner hidden">
+            <img class="experience__element--image" src="assets/logo-lypsa.png">
+            <div class="experience__element__info">
+              <div>
+                <p class="experience__element--title">Electronic diagnostic and repair technician</p>
+                <p class="experience__element--company">LYPSA</p>
+                <p class="experience__element--time">Sep 2020 - Feb 2021</p>
+              </div>
+              <p class="experience__element--description">Diagnose and repair faulty circuits from a telecommunications company called Izzi.</p>
+            </div>
+          </li>
+          <li class="experience__element banner hidden">
+            <img class="experience__element--image" src="assets/logo-voxcentrix.png">
+            <div class="experience__element__info">
+              <div>
+                <p class="experience__element--title">Bilingual Customer Service Representative</p>
+                <p class="experience__element--company">Voxcentrix</p>
+                <p class="experience__element--time">Jun 2018 - Aug 2018</p>
+              </div>
+              <p class="experience__element--description">Car insurance agent for clients in the United States.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+
+      <section id="work-websites" class="projects hidden" style="margin-top: -7rem; padding-top: 7rem;">
+        <h1 class="subtitle">Websites I've Worked On</h1>
+        <ul class="projects__list">
+          <li class="projects__list__item hidden">
+            <div class="projects__list__item__container">
+              <h2 class="projects__list__item__title">Songmode</h2>
+              <p class="projects__list__item__from">Platform to learn any song on piano. I worked on this website as a React frontend developer along with other developers from different areas.</p>
+              <div class="project__button__container">
+                <a href="https://songmode.io/" target="_blank"><button class="project__button projects__list__item__repoButton">View Page</button></a>
+              </div>
+            </div>
+            <img src="assets/songmode.png" alt="Songmode" class="projects__list__item--image">
+          </li>
+          <li class="projects__list__item hidden">
+            <div class="projects__list__item__container">
+              <h2 class="projects__list__item__title">Rancho San Satoshi</h2>
+              <p class="projects__list__item__from">Website developed while working at ThirdRock Systems</p>
+              <div class="project__button__container">
+                <a href="https://thirdrock.systems/satoshi/index.php/media/" target="_blank"><button class="project__button projects__list__item__repoButton">View Page</button></a>
+              </div>
+            </div>
+            <img src="assets/san-satoshi.png" alt="Rancho San Satoshi" class="projects__list__item--image">
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects" class="projects hidden">
+        <h1 class="subtitle">Personal Projects</h1>
+          <ul class="projects__list">
+            <li class="projects__list__item hidden">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Quizzical</h2>
+                <p class="projects__list__item__from">Quiz game made with React</p>
+                <div class="project__button__container">
+                  <a href="https://github.com/GeraOSF/quizzical" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
+                  <a href="https://quizzical-geraosf.vercel.app" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
+                </div>
+              </div>
+              <img src="assets/quizzical.png" alt="Quizzical" class="projects__list__item--image">
+            </li>
+            <li class="projects__list__item hidden">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Alura-geek e-commerce</h2>
+                <p class="projects__list__item__from">E-commerce website (Oracle Challlenge)</p>
+                <div class="project__button__container">
+                  <a href="https://github.com/GeraOSF/alurageek-ecommerce" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
+                  <a href="https://geraosf.github.io/alurageek-ecommerce/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
+                </div>
+              </div>
+              <img src="assets/alura-geek.png" alt="Alura-geek e-commerce" class="projects__list__item--image">
+            </li>
+            <li class="projects__list__item hidden">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Hangman game</h2>
+                <p class="projects__list__item__from">Oracle Challlenge</p>
+                <div class="project__button__container">
+                  <a href="https://github.com/GeraOSF/juego-del-ahorcado" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
+                  <a href="https://geraosf.github.io/juego-del-ahorcado/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
+                </div>
+              </div>
+              <img src="assets/hangman.png" alt="Hangman game" class="projects__list__item--image">
+            </li>
+            <li class="projects__list__item hidden">
+              <div class="projects__list__item__container">
+                <h2 class="projects__list__item__title">Encrypt & decrypt text</h2>
+                <p class="projects__list__item__from">Oracle Challenge</p>
+                <div class="project__button__container">
+                  <a href="https://github.com/GeraOSF/encriptacion-texto" target="_blank"><button class="project__button projects__list__item__repoButton">Repository</button></a>
+                  <a href="https://geraosf.github.io/encriptacion-texto/" target="_blank"><button class="project__button projects__list__item__demoButton">View demo</button></a>
+                </div>
+              </div>
+              <img src="assets/text-encryption.png" alt="Encrypt & decrypt text" class="projects__list__item--image">
+            </li>
+          </ul>
+      </section>
+
+      <section id="education" class="education hidden">
+        <h1 class="subtitle">Education</h1>
+        <ul class="education__list">
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-one.png">
+            <div class="education__element--title">Oracle Next Education - Full stack development</div>
+            <div class="education__element--time">2022 | Alura Latam + Oracle</div>
+          </li>
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-freecodecamp.png">
+            <div class="education__element--title">JavaScript Algorithms and Data Structures</div>
+            <div class="education__element--time">2022 | FreeCodeCamp</div>
+          </li>
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-hardvard.jfif">
+            <div class="education__element--title">CS50: Introduction to Computer Science</div>
+            <div class="education__element--time">2021-22 | Hadvard University</div>
+          </li>
+          <li class="education__element banner hidden">
+            <img class="education__element--image" src="assets/logo-itt.png">
+            <div class="education__element--title">Electrical Engineering</div>
+            <div class="education__element--time">2015-22 | Instituto Tecnológico de Tijuana</div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- <section id="hobbies" class="skillsAndHobbies hidden" name="hobbies">
+        <h1 class="subtitle">Hobbies</h1>
+        <ul class="banners">
+          <li class="banner hidden">
+            <i class="fa-solid fa-guitar fa-2x"></i>
+            <div class="banner__title">Play the guitar</div>
+          </li>
+          <li class="banner hidden">
+            <i class="fa-solid fa-chess fa-2x"></i>
+            <div class="banner__title">Play chess</div>
+          </li>
+          <li class="banner hidden">
+            <i class="fa-solid fa-tv fa-2x"></i>
+            <div class="banner__title">Watch TV series</div>
+          </li>
+          <li class="banner hidden">
+            <i class="fa-solid fa-people-group fa-2x"></i>
+            <div class="banner__title">Hang out with friends</div>
+          </li>
+          <li class="banner hidden">
+            <i class="fa-solid fa-person-biking fa-2x"></i>
+            <div class="banner__title">Spinning</div>
+          </li>
+        </ul>
+      </section> -->
+    </main>
+    <i class="fa-solid fa-angles-up fa-2x arrow-to-top"></i>
+  </body>
+</html>

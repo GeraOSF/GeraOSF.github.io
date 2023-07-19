@@ -1,0 +1,40 @@
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.banner {
+  background-color: var(--color-white);
+  color: var(--color-background);
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 0.4rem;
+  transition: all 0.2s;
+}
+
+.banner:hover {
+  transform: translateY(-7px);
+  box-shadow: 5px 7px 1px rgba(255, 255, 255, 0.6);
+}
+
+.skillsAndHobbies {
+  margin-bottom: 7rem;
+}
+
+.skill-image {
+  width: 40px;
+}
+
+.css-logo, .tailwind-logo {
+  width: 45px;
+}
