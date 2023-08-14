@@ -37,7 +37,6 @@
           <il class="navbar__item"><a class="navbar__link" href="#work-websites">Job Projects</a></il>
           <il class="navbar__item"><a class="navbar__link" href="#projects">Projects</a></il>
           <il class="navbar__item"><a class="navbar__link" href="#education">Education</a></il>
-          <!-- <il class="navbar__item"><a class="navbar__link" href="#hobbies">Hobbies</a></il> -->
         </ul>
       </nav>
     </header>
@@ -59,7 +58,7 @@
 
       <section id="aboutMe" class="aboutMe hidden">
         <h1 class="aboutMe__subtitle subtitle">About me</h1>
-        <p class="aboutMe__text">Hello, my name is Gerardo Gómez and I am a web developer and an electrical engineer. Currently, I am working for ThirdRock Systems, a software agency based in Canada, where I am utilizing my technical background to contribute to various projects as a frontend developer. In addition to this, I am also working on a startup website called Songmode, where I am using React and other tech stack to build and maintain the website. At Songmode, my responsibilities have included working with a variety of technologies and collaborating with a diverse team of developers.</p>
+        <p class="aboutMe__text">Hello, my name is Gerardo Gómez and I am a full stack web developer and an electrical engineer. I am currently working for ThirdRock Systems, a software agency based in Canada, where I am utilizing my technical background to contribute to various projects as a frontend developer. In addition to this, I am also working on a startup website called Songmode, where I am using React and other tech stack to build and maintain the website. At Songmode, my responsibilities have included working with a variety of technologies and collaborating with a diverse team of developers.</p>
       </section>
 
       <section id="skills" class="skillsAndHobbies hidden" name="skills">
@@ -70,16 +69,24 @@
             <div class="banner__title">React</div>
           </li>
           <li class="banner hidden">
+            <img class="skill-image" src="./assets/nextjs-logo.svg" alt="Next js logo">
+            <div class="banner__title">Next.js</div>
+          </li>
+          <li class="banner hidden">
             <img class="skill-image" src="./assets/javascript-logo.svg" alt="JavaScript logo">
             <div class="banner__title">JavaScript</div>
           </li>
           <li class="banner hidden">
-            <img class="skill-image" src="./assets/typescript-logo.svg" alt="TypeScript logo">
-            <div class="banner__title">TypeScript</div>
+            <img class="skill-image" src="./assets/nodejs-logo.svg" alt="Node js logo">
+            <div class="banner__title">Node.js</div>
           </li>
           <li class="banner hidden">
-            <img class="skill-image" src="./assets/jest-logo.svg" alt="Jest logo">
-            <div class="banner__title">Jest</div>
+            <img class="skill-image" src="./assets/express-logo.svg" alt="Express logo">
+            <div class="banner__title">Express</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/typescript-logo.svg" alt="TypeScript logo">
+            <div class="banner__title">TypeScript</div>
           </li>
           <li class="banner hidden">
             <img class="skill-image tailwind-logo" src="./assets/tailwind-logo.svg" alt="Tailwind logo">
@@ -92,6 +99,14 @@
           <li class="banner hidden">
             <img class="skill-image" src="./assets/html-logo.svg" alt="HTML logo">
             <div class="banner__title">HTML</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/django-logo.svg" alt="Django logo">
+            <div class="banner__title">Django</div>
+          </li>
+          <li class="banner hidden">
+            <img class="skill-image" src="./assets/jest-logo.svg" alt="Jest logo">
+            <div class="banner__title">Jest</div>
           </li>
           <li class="banner hidden">
             <img class="skill-image" src="./assets/python-logo.svg" alt="Python logo">
@@ -112,14 +127,25 @@
         <h1 class="subtitle">Professional Experience</h1>
         <ul class="experience__list">
           <li class="experience__element banner hidden">
+            <img class="experience__element--image songmode-logo" src="assets/logo-songmode.png">
+            <div class="experience__element__info">
+              <div>
+                <p class="experience__element--title">Full Stack Web Developer</p>
+                <p class="experience__element--company">Songmode</p>
+                <p class="experience__element--time">Oct 2022 - Present</p>
+              </div>
+              <p class="experience__element--description">Developing both frontend and backend components for Songmode, a platform that enables music enthusiasts to discover and learn new songs.</p>
+            </div>
+          </li>
+          <li class="experience__element banner hidden">
             <img class="experience__element--image" src="assets/logo-thirdrock.svg">
             <div class="experience__element__info">
               <div>
-                <p class="experience__element--title">Frontend Web Developer</p>
+                <p class="experience__element--title">Full Stack Web Developer</p>
                 <p class="experience__element--company">ThirdRock Systems</p>
                 <p class="experience__element--time">Oct 2022 - Present</p>
               </div>
-              <p class="experience__element--description">Develop and bring software and website solutions, working with a team of developers as a frontend web developer.</p>
+              <p class="experience__element--description">Develop and bring software and website solutions, working with a team of developers as a full stack web developer.</p>
             </div>
           </li>
           <li class="experience__element banner hidden">
@@ -174,13 +200,13 @@
           </li>
           <li class="projects__list__item hidden">
             <div class="projects__list__item__container">
-              <h2 class="projects__list__item__title">Rancho San Satoshi</h2>
-              <p class="projects__list__item__from">Website developed while working at ThirdRock Systems</p>
+              <h2 class="projects__list__item__title">Estudio de las Rosas</h2>
+              <p class="projects__list__item__from">Website developed while working at ThirdRock Systems for a client from Baja California Sur, Mexico</p>
               <div class="project__button__container">
-                <a href="https://thirdrock.systems/satoshi/index.php/media/" target="_blank"><button class="project__button projects__list__item__repoButton">View Page</button></a>
+                <a href="https://estudiodelasrosas.com/" target="_blank"><button class="project__button projects__list__item__repoButton">View Page</button></a>
               </div>
             </div>
-            <img src="assets/san-satoshi.png" alt="Rancho San Satoshi" class="projects__list__item--image">
+            <img src="assets/estudiorosas.png" alt="Estudio de las Rosas" class="projects__list__item--image">
           </li>
         </ul>
       </section>
@@ -260,32 +286,6 @@
           </li>
         </ul>
       </section>
-
-      <!-- <section id="hobbies" class="skillsAndHobbies hidden" name="hobbies">
-        <h1 class="subtitle">Hobbies</h1>
-        <ul class="banners">
-          <li class="banner hidden">
-            <i class="fa-solid fa-guitar fa-2x"></i>
-            <div class="banner__title">Play the guitar</div>
-          </li>
-          <li class="banner hidden">
-            <i class="fa-solid fa-chess fa-2x"></i>
-            <div class="banner__title">Play chess</div>
-          </li>
-          <li class="banner hidden">
-            <i class="fa-solid fa-tv fa-2x"></i>
-            <div class="banner__title">Watch TV series</div>
-          </li>
-          <li class="banner hidden">
-            <i class="fa-solid fa-people-group fa-2x"></i>
-            <div class="banner__title">Hang out with friends</div>
-          </li>
-          <li class="banner hidden">
-            <i class="fa-solid fa-person-biking fa-2x"></i>
-            <div class="banner__title">Spinning</div>
-          </li>
-        </ul>
-      </section> -->
     </main>
     <i class="fa-solid fa-angles-up fa-2x arrow-to-top"></i>
   </body>

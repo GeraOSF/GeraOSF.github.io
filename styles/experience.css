@@ -26,6 +26,12 @@
   width: 150px;
 }
 
+.songmode-logo {
+  filter: invert(1);
+  height: fit-content;
+  margin: auto 0;
+}
+
 .experience__element__info {
   display: flex;
   flex-direction: column;
@@ -43,6 +49,11 @@
 
 .experience__element--company {
   font-size: 1.25rem;
+  opacity: 0.85;
+}
+
+.experience__element--time {
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 600px) {
