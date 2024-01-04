@@ -85,12 +85,13 @@ header {
     white-space: normal;
     animation: none;
     border: none;
-    padding: 0 0.5rem;
     font-size: 1.6rem;
   }
 
   .myName__container {
-    border-bottom: solid 3px var(--color-main);
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: solid 2px var(--color-main);
   }
 
   .navbar__list {
