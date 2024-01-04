@@ -38,6 +38,7 @@ header {
   color: var(--color-main);
   font-weight: 700;
   text-decoration: none;
+  text-align: center;
   display: block;
   padding: 1.5rem;
   border: 2px solid transparent;
@@ -54,9 +55,11 @@ header {
   from {
     border-color: transparent;
   }
+
   50% {
     border-color: var(--color-white);
   }
+
   to {
     border-color: transparent;
   }
@@ -66,6 +69,7 @@ header {
   from {
     width: 0%;
   }
+
   to {
     width: 100%;
   }
@@ -74,12 +78,15 @@ header {
 @media only screen and (max-width: 852px) {
   header {
     position: initial;
+    border-bottom: none;
   }
 
   .myName {
     white-space: normal;
     animation: none;
     border: none;
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
   }
 
   .myName__container {
@@ -87,6 +94,7 @@ header {
   }
 
   .navbar__list {
+    display: none;
     flex-direction: column;
     align-items: center;
   }
@@ -95,6 +103,5 @@ header {
     border-left: 2px solid var(--color-main);
     border-right: 2px solid var(--color-main);
     width: 150px;
-    text-align: center;
   }
 }

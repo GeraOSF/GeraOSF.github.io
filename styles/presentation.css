@@ -9,6 +9,7 @@
 
 .presentation__container {
   text-align: center;
+  padding: 0 0.5rem;
 }
 
 .presentation__who {
@@ -20,7 +21,11 @@
   color: var(--color-main);
 }
 
-.fa-github, .fa-linkedin, .fa-file-lines, .fa-arrow-up-right-from-square, .fa-envelope {
+.fa-github,
+.fa-linkedin,
+.fa-file-lines,
+.fa-arrow-up-right-from-square,
+.fa-envelope {
   color: var(--color-main);
 }
 
@@ -49,9 +54,9 @@
 }
 
 .presentation__photo {
-  max-width: 300px;
+  max-width: 240px;
   width: 100%;
-  max-height: 300px;
+  max-height: 240px;
   height: 100%;
   border-radius: 50%;
 }

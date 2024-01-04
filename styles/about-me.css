@@ -1,5 +1,7 @@
 .aboutMe {
   margin: 5rem 25%;
+  padding-top: 7rem;
+  margin-top: -7rem;
 }
 
 .aboutMe__subtitle {
@@ -13,6 +15,7 @@
 
 @media only screen and (max-width: 710px) {
   .aboutMe {
-    margin: 5rem 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
