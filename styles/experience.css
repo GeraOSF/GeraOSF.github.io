@@ -26,6 +26,19 @@
   width: 150px;
 }
 
+.experience__element--description:before {
+  content: "✓ ";
+}
+
+.experience__element--description a {
+  color: var(--color-background);
+  text-decoration: none;
+}
+
+.experience__element--description a:hover {
+  text-decoration: underline;
+}
+
 .songmode-logo {
   filter: invert(1);
   height: fit-content;
