@@ -10,7 +10,9 @@
   --font-kanit: 'Kanit', sans-serif;
 }
 
-html {scroll-behavior: smooth}
+html {
+  scroll-behavior: smooth
+}
 
 body {
   background-color: var(--color-background);
@@ -22,7 +24,12 @@ section {
   margin-bottom: 100px !important;
 }
 
-#skills, #experience, #hobbies, #education, #projects, #contactMe {
+#skills,
+#experience,
+#hobbies,
+#education,
+#projects,
+#contactMe {
   padding-top: 7rem;
   margin-top: -7rem;
 }

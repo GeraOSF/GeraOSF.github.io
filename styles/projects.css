@@ -25,6 +25,10 @@
   flex-direction: row-reverse;
 }
 
+.projects__list__item__container {
+  margin: 0 1rem;
+}
+
 .projects__list__item--image {
   max-width: 700px;
   width: 100%;
