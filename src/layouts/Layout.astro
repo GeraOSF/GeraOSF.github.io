@@ -1,6 +1,6 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -8,15 +8,60 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="bg-zinc-950 text-sky-50">
+    <header class="flex p-2 justify-between items-center border-b">
+      <h1 class="text-2xl">
+        <a href="/">Luis Gerardo Gómez Romero | Portfolio</a>
+      </h1>
+      <nav>
+        <ul class="flex gap-4">
+          <li>
+            <a
+              class="hover:border-b-sky-600 hover:border-b-2 border-b-2 border-b-transparent"
+              href="#">About me</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:border-b-sky-600 hover:border-b-2 border-b-2 border-b-transparent"
+              href="#">Skills</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:border-b-sky-600 hover:border-b-2 border-b-2 border-b-transparent"
+              href="#">Professional experience</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:border-b-sky-600 hover:border-b-2 border-b-2 border-b-transparent"
+              href="#">Job projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:border-b-sky-600 hover:border-b-2 border-b-2 border-b-transparent"
+              href="#">Projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:border-b-sky-600 hover:border-b-2 border-b-2 border-b-transparent"
+              href="#">Education</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <slot />
+  </body>
 </html>
